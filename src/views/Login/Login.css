@@ -1,0 +1,46 @@
+.auth-container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* Fondo oscuro con degradado radial simulando iluminación de cine */
+  background: radial-gradient(circle, #181a20 0%, #0b0c10 100%);
+  padding: 20px;
+}
+
+.auth-card {
+  background: rgba(20, 22, 28, 0.75); /* Fondo ultra oscuro translúcido */
+  padding: 50px 40px;
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.05); /* Borde de cristal sutil */
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.5);
+  width: 100%;
+  max-width: 420px;
+  text-align: center;
+  backdrop-filter: blur(12px); /* Efecto Glassmorphism oscuro */
+}
+
+.auth-card h2 {
+  margin-bottom: 10px;
+  color: #ffffff;
+  font-size: 32px;
+  font-weight: 800;
+  letter-spacing: -0.5px;
+}
+
+.auth-card p {
+  color: #9ca3af;
+  margin-bottom: 32px;
+  font-size: 15px;
+}
+
+.auth-link {
+  margin-top: 28px;
+  font-size: 14px;
+  color: #6b7280;
+}
+
+/* Estilo para los placeholders de los inputs (opcional para consistencia) */
+input::placeholder {
+  color: #4b5563 !important;
+}

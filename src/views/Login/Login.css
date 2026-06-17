@@ -3,21 +3,20 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  /* Fondo oscuro con degradado radial simulando iluminación de cine */
   background: radial-gradient(circle, #181a20 0%, #0b0c10 100%);
   padding: 20px;
 }
 
 .auth-card {
-  background: rgba(20, 22, 28, 0.75); /* Fondo ultra oscuro translúcido */
+  background: rgba(20, 22, 28, 0.75); 
   padding: 50px 40px;
   border-radius: 12px;
-  border: 1px solid rgba(255, 255, 255, 0.05); /* Borde de cristal sutil */
+  border: 1px solid rgba(255, 255, 255, 0.05); 
   box-shadow: 0 20px 40px rgba(0, 0, 0, 0.5);
   width: 100%;
   max-width: 420px;
   text-align: center;
-  backdrop-filter: blur(12px); /* Efecto Glassmorphism oscuro */
+  backdrop-filter: blur(12px); /*Glassmorphism*/
 }
 
 .auth-card h2 {
@@ -40,7 +39,6 @@
   color: #6b7280;
 }
 
-/* Estilo para los placeholders de los inputs (opcional para consistencia) */
 input::placeholder {
   color: #4b5563 !important;
 }

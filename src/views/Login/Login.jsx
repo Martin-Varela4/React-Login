@@ -7,7 +7,6 @@ import './Login.css';
 export default function Login() { 
   const [formData, setFormData] = useState({ email: '', password: '' });
 
-  // 1. AGREGA LA FUNCIÓN PARA CAPTURAR LO QUE ESCRIBE EL USUARIO
   const handleChange = (e) => {
     setFormData({ 
       ...formData, 
@@ -42,7 +41,7 @@ export default function Login() {
   return (
     <div className="auth-container">
       <div className="auth-card">
-        <h2> Login </h2>
+        <h2> Iniciar Sesión </h2>
         <p>Ingresa tus credenciales para acceder</p>
         
         <form onSubmit={handleSubmit}>
